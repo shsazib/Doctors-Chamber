@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headar {
+    width: 100%;
+    height: 60vh;
+    background: url('./Images/image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headar .doctors {
+    margin: 10%;
+}
+
+.doctors h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    color: rgb(44, 43, 43);
+}
+
+.doctors p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(99, 97, 97);
+    margin-left: 0;
+}
+
+.headar .home {
+    padding-top: 4%;
+    margin: 10%;
+    color: rgb(44, 43, 43);
+}
+
+
+
+
+/* sixth-container */
+.sixth-container .content {
+    display: grid;
+    align-items: center;
+}
+
+/* seventh-container */
+.seventh-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.expDoctor {
+    display: grid;
+    justify-content: space-evenly;
+    border: 1px solid rgb(4, 121, 121);
+    border-radius: 10px;
+    margin: 40px;
+}
+
+.expDoctor h1 {
+    text-align: center;
+    color: rgb(43, 43, 43);
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 15px;
+}
+
+.expDoctor p {
+    text-align: center;
+    color: rgb(73, 73, 73);
+    margin-left: 0;
+}
+
+.expDoctor img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.expDoctor .phone {
+    height: 50px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(4, 121, 121);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 20px;
+}
+
+.expDoctor .phone p {
+    font-size: 20px;
+    color: #fff;
+    margin-left: 0;
+}
+
+
+
+/* eleven-container */
+.eleven-container {
+    margin: 50px 0;
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(4, 121, 121);
+    margin-bottom: 50px;
+    display: grid;
+    align-items: center;
+}
+
+.img-container {
+    color: #fff;
+    text-align: center;
+}
+
+.H-Line {
+    margin: 20px 0;
+    color: #fff
+}
+
+.img-container h5 {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.img-container h1 {
+    font-size: 60px;
+}
+
+.img-container p {
+    font-size: 20px;
+}
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+
+    /* sixth-container */
+    .sixth-container .content {
+        display: block;
+        margin: 20px;
+    }
+
+    /* seventh-container */
+    .seventh-container {
+        display: block;
+    }
+
+    .expDoctor h1 {
+        font-size: 20px;
+    }
+
+    .expDoctor .phone {
+        margin-left: 0;
+    }
+
+    .expDoctor .phone p {
+        font-size: 15px;
+    }
+
+    .expDoctor p {
+        font-size: 14px;
+    }
+
+
+    /* eleven-container */
+    .img-container h1 {
+        font-size: 25px;
+    }
+
+    .img-container h5 {
+        font-size: 17px;
+    }
+
+    .H-Line {
+        margin: 10px 10px;
+    }
+
+    .img-container p {
+        font-size: 14px;
+    }
+
+
+}
+
+
+@media screen and (min-width: 426px) and (max-width: 599px) {
+
+    /* sixth-container */
+    .sixth-container .content {
+        display: block;
+        margin: 20px;
+    }
+
+    /* seventh-container */
+    .seventh-container {
+        display: block;
+    }
+
+    .expDoctor h1 {
+        font-size: 41px;
+        margin-top: 30px;
+    }
+
+    .expDoctor .phone p {
+        font-size: 18px;
+    }
+
+    .expDoctor p {
+        font-size: 17px;
+    }
+
+
+    /* eleven-container */
+    .img-container h1 {
+        font-size: 28px;
+    }
+
+    .img-container h5 {
+        font-size: 18px;
+    }
+
+    .H-Line {
+        margin: 12px 12px;
+    }
+
+    .img-container p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 910px) {
+
+    /* doctors */
+    .doctors h1 {
+        font-size: 30px;
+        margin-left: 5%;
+    }
+
+    .doctors p {
+        margin-left: 5%;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .doctors .home {
+        font-size: 23px;
+    }
+
+    /* sixth-container */
+    .sixth-container .content {
+        margin: 60px;
+    }
+
+    /* seventh-container */
+    .seventh-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .expDoctor h1 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+
+    /* eleven-container */
+    .img-container h1 {
+        font-size: 35px;
+    }
+
+    .img-container h5 {
+        font-size: 25px;
+    }
+
+    .H-Line {
+        margin: 15px 15px;
+    }
+
+    .img-container p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 911px) and (max-width: 1422px) {
+
+    /* sixth-container */
+    .sixth-container .content {
+        margin: 80px;
+    }
+
+    /* seventh-container */
+    .expDoctor h1 {
+        font-size: 31px;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 599px) {
+
+    /* doctors */
+    .doctors h1 {
+        font-size: 30px;
+        margin-left: 5%;
+    }
+
+    .doctors p {
+        margin-left: 5%;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .doctors .home {
+        font-size: 23px;
+    }
+}

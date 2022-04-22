@@ -1,0 +1,222 @@
+/* footer */
+/* compony-container */
+.compony-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.compony-container img {
+    width: 16%;
+    height: 16%;
+    cursor: pointer;
+    padding: 30px;
+    transition: 1s;
+    margin: 40px 20px 100px 20px;
+}
+
+.compony-container img:hover {
+    background-color: rgb(4, 121, 121, 0.4);
+    border-radius: 10px;
+}
+
+/* footer-container */
+.com-deteles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deteles {
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+}
+
+.deteles p {
+    font-size: 16px;
+    color: rgb(73, 73, 73);
+    margin: 10px 0;
+    line-height: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.deteles p:hover {
+    color: rgb(4, 121, 121);
+}
+
+.deteles h4 {
+    color: rgb(73, 73, 73);
+    line-height: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+}
+
+.inp-button {
+    margin: 10px 0;
+}
+
+.inp-button input {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: 1px solid rgb(99, 97, 97);
+    padding: 2%;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.inp-button input:focus {
+    border: 2px solid rgb(4, 121, 121);
+}
+
+.inp-button button {
+    width: 50%;
+    height: 40px;
+    margin-top: 20px;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    border: 1px solid rgb(4, 121, 121);
+    background-color: rgb(4, 121, 121, 0.4);
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 0;
+}
+
+.inp-button button:hover {
+    color: #fff;
+    background-color: rgb(4, 121, 121);
+}
+
+/* copyright-container */
+.copyright-container {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(99, 97, 97);
+}
+
+.copyright-container a {
+    color: black;
+    transition: 0.5s;
+}
+
+.copyright-container a:hover {
+    color: rgb(4, 121, 121);
+}
+
+
+
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 425px) {
+    .compony-container {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .compony-container img {
+        width: 150px;
+        height: 150px;
+        padding: 15px;
+        margin: 40px 20px 30px 20px;
+    }
+
+    .com-deteles {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inp-button input {
+        height: 30px;
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .inp-button button {
+        height: 30px;
+        margin-top: 15px;
+        font-size: 15px;
+    }
+
+    .copyright-container p {
+        margin-left: 0;
+        margin: 10px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-device-width: 426px) and (max-device-width: 768px) {
+    .compony-container {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .compony-container img {
+        width: 200px;
+        height: 200px;
+        padding: 20px;
+        margin: 40px 20px 30px 20px;
+    }
+
+    .com-deteles {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .deteles p {
+        font-size: 18px;
+    }
+
+    .deteles h4 {
+        font-size: 25px;
+    }
+
+    .inp-button input {
+        height: 35px;
+        font-size: 16px;
+    }
+
+    .inp-button button {
+        height: 35px;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .copyright-container p {
+        margin-left: 0;
+        margin: 10px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+    .compony-container img {
+        margin: 40px 20px 30px 20px;
+    }
+
+    .deteles p {
+        font-size: 13px;
+    }
+
+    .deteles h4 {
+        font-size: 20px;
+    }
+
+    .inp-button input {
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .inp-button button {
+        height: 30px;
+        font-size: 14px;
+    }
+}
